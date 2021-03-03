@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "license": "MIT",
     "engines": {
-    "node": "8.9.1"
+    "node": "12.x"
     },
     "dependencies": {
         "@types/cheerio": "^0.22.6",
