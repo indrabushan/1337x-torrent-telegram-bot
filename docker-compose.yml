@@ -11,7 +11,7 @@ services:
         - api-deps:/code/node_modules
         environment:
         - NTBA_FIX_319=1
-        - MONGO_URI=mongodb://mongo/admin
+        - MONGO_URI=mongodb+srv://SINNER_LS:97471535In@sinner.54fjy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
         - TOKEN=1419935389:AAGH1ed0OWppcm5zncEM6xdE7wOLaQfrfwU
         depends_on:
         - mongo
